@@ -27,3 +27,6 @@ My career started in 2011 in Moscow. I was a quality ingeneer at small company. 
 Information Systems and Technologies, Information Systems Engineer
 * Samara State University of Architecture and Civil Engineering, Samara
 Information Systems and Technology, Bachelor's Degree in Information Systems
+
+## Languages
+English: A1 or A1+
