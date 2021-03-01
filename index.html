@@ -12,11 +12,22 @@
         .cv-container {
             max-width: 600px;
             margin: 24px auto;
+        }
 
+        .cv-container h1 {
+            font-size: 2em;
+        }
+
+        .footer-container>div {
+            margin-bottom: 8px;
         }
 
         .title-container {
             display: flex;
+        }
+
+        .title-container figure {
+            margin: 0;
         }
 
         .title-container .title-container__avatar {
@@ -26,63 +37,101 @@
             margin-right: 8px;
         }
 
-        .title-container .title-container__title > *{
+        .title-container .title-container__title>* {
             margin: 0;
+        }
+
+        .rs-school-img {
+            width: 105px;
+            height: 39px;
         }
     </style>
 </head>
 
 <body>
-    <article class="cv-container">
-        <h1>CV. Aleksandr Mikhailov</h1>
-        <header class="title-container">
-            <img class="title-container__avatar" src="./assets/IMG_0038.JPG" alt="avatar">
-            <div class="title-container__title">
-                <h2>Contacts</h2>
+    <main class="cv-container">
+        <article>
+            <h1>CV. Aleksandr Mikhailov</h1>
+            <header class="title-container">
+                <figure><img class="title-container__avatar" src="./assets/IMG_0038.JPG"
+                        alt="Mikhailov Aleksandr avatar"></figure>
+                <div class="title-container__title">
+                    <h2>Contacts</h2>
+                    <ul>
+                        <li>skype: kulc_skype</li>
+                        <li>discord: Kulc#4215</li>
+                    </ul>
+                </div>
+            </header>
+            <section>
+                <h2>About me</h2>
+                <p>My name is Aleksandr, I am from Samara, Russia. I wanna be an IT architect. Knowledges on frontend
+                    will
+                    help me to do it efficiently and the shortest possible time.</p>
+            </section>
+            <section>
+                <h2>Skills</h2>
                 <ul>
-                    <li>skype: kulc_skype</li>
-                    <li>discord: Kulc#4215</li>
+                    <li>System analysis and architect (UML, Enterprice arhitect, Confluence)</li>
+                    <li>Project managment (MS Project, Jira)</li>
+                    <li>Agile, Scrum</li>
+                    <li>Javascript (ReactJS + antd, NodeJS + express, mongodb, mysql, postgres)</li>
                 </ul>
-            </div>
-        </header>
-        <h2>About me</h2>
-        <p>My name is Aleksandr, I am from Samara, Russia. I wanna be an IT architect. Knowledges on frontend will
-            help me to do it efficiently and the shortest possible time.</p>
-        <h2>Skills</h2>
-        <ul>
-            <li>System analysis and architect (UML, Enterprice arhitect, Confluence)</li>
-            <li>Project managment (MS Project, Jira)</li>
-            <li>Agile, Scrum</li>
-            <li>Javascript (ReactJS + antd, NodeJS + express, mongodb, mysql, postgres)</li>
-        </ul>
-        <h2>Code examples</h2>
-        <ul>
-            <li><a target="_blank"
-                    href="https://bitbucket.org/kulc/wireframe/src/master/">https://bitbucket.org/kulc/wireframe/src/master/</a>
-            </li>
-            <li><a target="_blank"
-                    href="https://bitbucket.org/AnastasiaSlugina/asl-crm/src/master/">https://bitbucket.org/AnastasiaSlugina/asl-crm/src/master/</a>
-            </li>
-            <li><a target="_blank"
-                    href="https://github.com/thekulc/gderepa.ru">https://github.com/thekulc/gderepa.ru</a></li>
-        </ul>
-        <h2>Experience</h2>
-        <p>My career started in 2011 in Moscow. I was a quality ingeneer at small company. Then I started writing
-            technical documentation for delivery to the customer. In parallel, I studied PHP, HTML and javascript.
-            Back in Samara at 2013, I started working as a fullstack developer and DevOps specialist. Since 2017 I
-            have been working as a systems analyst and architect. In addition, I plan the work of the department,
-            prepare estimates and lead projects for Scrum. In my spare time, I develop various applications on react
-            and node js.</p>
-        <h2>Education</h2>
-        <ol>
-            <li>Samara State University of Architecture and Civil Engineering, Samara. Information Systems and
-                Technologies, Information Systems Engineer</li>
-            <li>Samara State University of Architecture and Civil Engineering, Samara. Information Systems and
-                Technology, Bachelor's Degree in Information Systems</li>
-        </ol>
-        <h2>Languages</h2>
-        <p>English: A1 or A1+</p>
-    </article>
+            </section>
+            <section>
+                <h2>Code examples</h2>
+                <ul>
+                    <li><a target="_blank"
+                            href="https://bitbucket.org/kulc/wireframe/src/master/">https://bitbucket.org/kulc/wireframe/src/master/</a>
+                    </li>
+                    <li><a target="_blank"
+                            href="https://bitbucket.org/AnastasiaSlugina/asl-crm/src/master/">https://bitbucket.org/AnastasiaSlugina/asl-crm/src/master/</a>
+                    </li>
+                    <li><a target="_blank"
+                            href="https://github.com/thekulc/gderepa.ru">https://github.com/thekulc/gderepa.ru</a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h2>Experience</h2>
+                <p>My career started in 2011 in Moscow. I was a quality ingeneer at small company. Then I started
+                    writing
+                    technical documentation for delivery to the customer. In parallel, I studied PHP, HTML and
+                    javascript.
+                    Back in Samara at 2013, I started working as a fullstack developer and DevOps specialist. Since
+                    2017
+                    I
+                    have been working as a systems analyst and architect. In addition, I plan the work of the
+                    department,
+                    prepare estimates and lead projects for Scrum. In my spare time, I develop various applications
+                    on
+                    react
+                    and node js.</p>
+            </section>
+            <section>
+                <h2>Education</h2>
+                <ol>
+                    <li>Samara State University of Architecture and Civil Engineering, Samara. Information Systems
+                        and
+                        Technologies, Information Systems Engineer</li>
+                    <li>Samara State University of Architecture and Civil Engineering, Samara. Information Systems
+                        and
+                        Technology, Bachelor's Degree in Information Systems</li>
+                </ol>
+            </section>
+            <section>
+                <h2>Languages</h2>
+                <p>English: A1 or A1+</p>
+            </section>
+        </article>
+        <footer class="footer-container">
+            <hr>
+            <div>&copy; Aleksandr Mikhailov, 2021</div>
+            <div><a target="_blank" href="https://github.com/thekulc">https://github.com/thekulc</a></div>
+            <div><a target="_blank" href="https://rs.school/js/"><img class="rs-school-img"
+                        src="https://rs.school/images/rs_school_js.svg" alt="RS School logo"></a></div>
+        </footer>
+    </main>
 </body>
 
 </html>
